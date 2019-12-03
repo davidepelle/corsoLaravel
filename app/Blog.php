@@ -4,6 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+//aggiungiamo il soft delete
+
+
 class Blog extends Model
 {
     protected $table = 'blog';

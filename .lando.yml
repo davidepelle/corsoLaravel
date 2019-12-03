@@ -1,0 +1,11 @@
+name: test2711
+recipe: laravel
+#config:
+  #webroot: app/public
+config:
+  php: '7.3'
+  via: apache:2.4
+  webroot: public
+  database: mariadb:10.3
+  cache: redis
+  xdebug: true

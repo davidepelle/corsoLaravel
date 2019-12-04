@@ -1,0 +1,5 @@
+1) Dopo aver clonato il progetto ho eseguito da powershell il comando "lando start".
+2) lando ssh
+3) composer install
+4) cp .env.example .env
+

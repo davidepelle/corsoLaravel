@@ -49,6 +49,6 @@
             </div>
 
         </div>
-        <a href="{{ URL::previous() }}">Indietro</a>
+        <a class="btn btn-secondary" href="{{ URL::previous() }}">Indietro</a>
     </form>
 @endsection

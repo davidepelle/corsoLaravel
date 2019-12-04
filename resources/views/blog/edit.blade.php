@@ -48,6 +48,6 @@
                 <button type="submit" class="btn btn-success">Update</button>
             </div>
         </div>
-
+        <a class="btn btn-secondary" href="{{ URL::previous() }}">Indietro</a>
     </form>
 @endsection

@@ -47,8 +47,8 @@
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <button type="submit" class="btn btn-success">Add Brand</button>
             </div>
-            
-        </div>
 
+        </div>
+        <a class="btn btn-secondary" href="{{ URL::previous() }}">Indietro</a>
     </form>
 @endsection

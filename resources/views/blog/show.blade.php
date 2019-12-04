@@ -15,21 +15,22 @@
                 <strong>Titolo:</strong>
                 {{ $blog->titolo }}
             </div>
-            
+
             <div class="form-group">
                 <strong>Contenuto:</strong>
                 {{ $blog->contenuto }}
             </div>
-            
+
             <div class="form-group">
                 <strong>Id Utente:</strong>
                 {{ $blog->user->id}}
             </div>
-            
+
             <div class="form-group">
                 <strong>Nome Utente:</strong>
                 {{ $blog->user->name}}
             </div>
         </div>
     </div>
+    <a href="{{ URL::previous() }}">Indietro</a>
 @endsection

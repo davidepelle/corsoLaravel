@@ -37,23 +37,23 @@
                 <td>{{ $blog->contenuto }}</td>
                 <td>
                     <form action="{{ route('blog.destroy',$blog->id) }}" method="POST">
- 
+
                         <a class="btn btn-info" href="{{ route('blog.show',$blog->id) }}">Show</a>
- 
+
                         <a class="btn btn-primary" href="{{ route('blog.edit',$blog->id) }}">Edit</a>
 
                         @csrf
                         @method('DELETE')
- 
+
                         <button type="submit" class="btn btn-danger">Delete</button>
                     </form>
-                </td>            
-                
+                </td>
+
             </tr>
         @endforeach
     </table>
 
-    
+
 
 @endsection
 
